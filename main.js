@@ -28,13 +28,13 @@ const showWeather = async (city) => {
     let data =  await getWeather(city);
     console.log(data)
     let new_row = `
-                    <div class="head row"><h4> ${data.name} </h4></div>
+                    <div class="title"><h4> ${data.name} </h4></div>
                     <div class='theflex'>
-                    <p class='chosen'>temp: ${data.main.temp} &nbsp; </p>
-                    <p>min: ${data.main.temp_min} &nbsp; </p>
-                    <p>max: ${data.main.temp_max} &nbsp; </p>
-                    <p>humidity: ${data.main.humidity} &nbsp; </p>
-                    <p>Type: ${data.weather[0].description} &nbsp; </p>
+                    <p class='weathertxt'>temp: ${data.main.temp} &deg &nbsp; </p>
+                    <p>min: ${data.main.temp_min}&deg &nbsp;&nbsp; </p>
+                    <p>max: ${data.main.temp_max}&deg &nbsp;&nbsp;&nbsp;&nbsp; </p>
+                    <p>humidity: ${data.main.humidity} &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>Type: ${data.weather[0].description} </p>
                     </div>`;
                     document.getElementById('weatherhouse').insertAdjacentHTML("afterbegin", new_row);
 }

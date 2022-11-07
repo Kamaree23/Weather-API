@@ -1,18 +1,44 @@
-.buttons{
-    margin-left: 12rem ;
+body {
+    background-color: coral;
+    color: rgb(35, 97, 135);
+    background-image: url(http://openweathermap.org/img/wn/10d@4x.png
+    );
+
+
 }
 
-.head{
-    margin-left: 32rem;
+.buttons {
+    margin-left: 12rem;
 }
 
-.theflex{
+.head {
+    margin-left: 45rem;
+    color: lightblue;
+}
+
+.title {
+    margin-left: 30rem;
+    color: lightblue;
+}
+
+.theflex {
     display: flex;
     flex-direction: row;
-    margin-left: 2rem;
+    margin-left: -5rem;
     font-size: large;
-} 
+    border-radius: 2rem;
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+}
 
-.chosen{
-    margin-left: 18rem;
+.weathertxt {
+    margin-left: 13rem;
+}
+
+.borderdiv {
+    border-radius: 10rem;
+    max-width: 60%;
+    height: 8rem;
+    background-color: white;
 }
