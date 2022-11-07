@@ -1,0 +1,18 @@
+.buttons{
+    margin-left: 12rem ;
+}
+
+.head{
+    margin-left: 32rem;
+}
+
+.theflex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    font-size: large;
+} 
+
+.chosen{
+    margin-left: 18rem;
+}
